@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+Any of the empty arrays and i variables in for loops needed to be changed from const back into let. Anything that needs to hold information which is going to be modified needs to be declared as a let, while anything that is a definition, or something that doesn't need to change, like declaring an html document element, works great being declared as a const.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+I think template literals make a lot more sense to use; they are way more elegant. I think I will probably use template literal notation from now on.
